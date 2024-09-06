@@ -10,8 +10,8 @@ ejercicios = [None]*7
 #ejercicio1
 ejercicios[0] = re.compile('^[0-9]([5-9][0-9])*$')
 #ejercicio2
-ejercicios[1] = re.compile('[a-z]+')
-#ejercicio3
+ejercicios[1] = re.compile('^(?:[13579][0-9])*[13579]?$') # grupo no capturante para guardar memoria al usar (opcional)
+#ejercicio
 ejercicios[2] = re.compile('[a-z]+')
 #ejercicio4
 ejercicios[3] = re.compile('[a-z]+')
