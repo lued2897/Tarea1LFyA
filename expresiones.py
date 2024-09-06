@@ -8,7 +8,7 @@ integrantes = ["Integrante1","Integrante2","Integrante3"]
 ejercicios = [None]*7
 
 #ejercicio1
-ejercicios[0] = re.compile('#[A-Z][A-Za-z0-9]+')
+ejercicios[0] = re.compile('^[0-9]([5-9][0-9])*$')
 #ejercicio2
 ejercicios[1] = re.compile('[a-z]+')
 #ejercicio3
