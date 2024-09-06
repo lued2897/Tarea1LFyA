@@ -2,7 +2,7 @@
 import re
 
 #Sustituir los elementos del arreglo integrantes con los nombres de los integrantes del equipo, nombre seguido de apellidos
-integrantes = ["Integrante1","Integrante2","Integrante3"]
+integrantes = ["Emmanuel Jimenez Cordova","Grecia Irais Meneses Calderas","Luis Eduardo Perez Osorio"]
 
 #cada elemento del arreglo ejercicios deberá ser la solución al ejercicio correspondiente, es decir ejercicio[n-1] es la solución al ejercicio n
 ejercicios = [None]*7
@@ -10,7 +10,7 @@ ejercicios = [None]*7
 #ejercicio1
 ejercicios[0] = re.compile('^[0-9]([5-9][0-9])*$')
 #ejercicio2
-ejercicios[1] = re.compile('^(?:[13579][0-9])*[13579]?$') # grupo no capturante para guardar memoria al usar (opcional)
+ejercicios[1] = re.compile('^(?:[13579][0-9])*[13579]?$') # grupo no capturante para guardar memoria al usar (opcional) sin: ^([13579][0-9])*[13579]?$
 #ejercicio
 ejercicios[2] = re.compile('[a-z]+')
 #ejercicio4
