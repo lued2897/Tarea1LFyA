@@ -18,7 +18,7 @@ ejercicios[3] = re.compile('^[aeiou]([a-z]|[a-z]*[aeiou][a-z]|)')
 #ejercicio5
 ejercicios[4] = re.compile('[a-z]+')
 #ejercicio6
-ejercicios[5] = re.compile('[a-z]+')
+ejercicios[5] = re.compile('(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*')
 #ejercicio7
 ejercicios[6] = re.compile('([013579](\d){2,}[13579]|[02468](\d){2,}[02468])')
 
