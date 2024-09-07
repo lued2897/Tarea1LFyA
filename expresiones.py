@@ -20,7 +20,7 @@ ejercicios[4] = re.compile('[a-z]+')
 #ejercicio6
 ejercicios[5] = re.compile('[a-z]+')
 #ejercicio7
-ejercicios[6] = re.compile('[a-z]+')
+ejercicios[6] = re.compile('([013579](\d){2,}[13579]|[02468](\d){2,}[02468])')
 
 
 #para obtener las coincidencias: re.match(string), regresa un arreglo con las coincidencias
