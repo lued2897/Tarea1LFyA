@@ -14,7 +14,7 @@ ejercicios[1] = re.compile('^(?:[13579][0-9])*[13579]?$') # grupo no capturante 
 #ejercicio
 ejercicios[2] = re.compile('[a-z]+')
 #ejercicio4
-ejercicios[3] = re.compile('[a-z]+')
+ejercicios[3] = re.compile('^[aeiou]([a-z]|[a-z]*[aeiou][a-z]|)')
 #ejercicio5
 ejercicios[4] = re.compile('[a-z]+')
 #ejercicio6
