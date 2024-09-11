@@ -12,11 +12,11 @@ ejercicios[0] = re.compile('^[0-9]([5-9][0-9])*$')
 #ejercicio2
 ejercicios[1] = re.compile('^([13579][0-9])*[13579]?$')
 #ejercicio
-ejercicios[2] = re.compile('[a-z]+')
+ejercicios[2] = re.compile('^(a[ab])+a?$') #Solo jala con impares de momento
 #ejercicio4
-ejercicios[3] = re.compile('^[aeiou]([a-z]|[a-z]*[aeiou][a-z]|)')
+ejercicios[3] = re.compile('^[aeiouAEIOU]([A-Za-z]{2}|[A-Za-z]*[aeiouAEIOU][A-Za-z]{2})')
 #ejercicio5
-ejercicios[4] = re.compile('[a-z]+')
+ejercicios[4] = re.compile('^(?![a-z]*[aeiou]{3})[a-z]*$') 
 #ejercicio6
 ejercicios[5] = re.compile('(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*')
 #ejercicio7
