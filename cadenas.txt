@@ -38,6 +38,8 @@
 3:bababababa:nm
 3:abababababababababab:nm
 3:ababaaaba:m
+3:ababaaab:m
+3:ababaaa:m
 4:aeiou:m
 4:baerfo:nm
 4:onehshftuqwbudfusdbklqfopwryoaujshfbkadjgfnp:nm
