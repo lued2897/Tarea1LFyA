@@ -12,7 +12,7 @@ ejercicios[0] = re.compile('^[0-9]([5-9][0-9])*$')
 #ejercicio2
 ejercicios[1] = re.compile('^([13579][0-9])*[13579]?$')
 #ejercicio
-ejercicios[2] = re.compile('^(?=.{2,}$)(?=(?:.{2})*a)(?=(?:.{5}a)*.{2}a)[ab]+$') #'^(?=(?:a[ab])*a?$)(?=(?:[ab]{2}a)*[ab]{0,2}$)[ab]+$'
+ejercicios[2] = re.compile('^((a)|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)|(a[ab]a[ab]aa))+$') #'^(?=(?:a[ab])*a?$)(?=(?:[ab]{2}a)*[ab]{0,2}$)[ab]+$'
 #ejercicio4
 ejercicios[3] = re.compile('^[aeiou]([a-z]{2}|[A-Za-z]*[aeiou][a-z]{2})')
 #ejercicio5

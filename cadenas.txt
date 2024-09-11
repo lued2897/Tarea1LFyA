@@ -40,6 +40,7 @@
 3:ababaaaba:m
 3:ababaaab:m
 3:ababaaa:m
+3:ababaaababaaababaaababaaababaaab:m
 4:aeiou:m
 4:baerfo:nm
 4:onehshftuqwbudfusdbklqfopwryoaujshfbkadjgfnp:nm
@@ -52,6 +53,8 @@
 4:uum:m
 4:opp:m
 4:fer:nm
+5:aeizzzzzzz:nm
+5:zzzzzaei:nm
 5:abecedario:m
 5:a:m
 5:aeiou:nm
