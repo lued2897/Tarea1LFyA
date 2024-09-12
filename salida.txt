@@ -1,0 +1,132 @@
+Integrantes del quipo:
+Emmanuel Jimenez Cordova
+Grecia Irais Meneses Calderas
+Luis Eduardo Perez Osorio
+----------
+Probando ejercicio 1:
+
+	 Acierto: la cadena '5' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '63' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '96' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '72' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '895' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '56987' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '94521' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '7584' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '89' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '723' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '581' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '5732' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '57979' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '24177956189' no coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '25177956189' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '0' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+	 Acierto: la cadena '890' coincide con la ER '^[0-9]([5-9][0-9])*$' como se esperaba
+
+Ejercicio 1: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 2:
+
+	 Acierto: la cadena '2468' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '192837' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '1' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '8' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '58' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '1280' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '2' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '12' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '135' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '1359' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '136789' no coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '70375' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '13791' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+	 Acierto: la cadena '3154789' coincide con la ER '^([13579][0-9])*[13579]?$' como se esperaba
+
+Ejercicio 2: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 3:
+
+	 Acierto: la cadena 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'a' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'b' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'bb' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'aa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'abababababbababaabababab' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'bababababa' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'abababababababababab' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaaba' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+
+Ejercicio 3: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 4:
+
+	 Acierto: la cadena 'aeiou' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'baerfo' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'onehshftuqwbudfusdbklqfopwryoaujshfbkadjgfnp' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'aiywerjbhweuygdcziuygbmnwebvbvcccckl' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'uuuuuuuuhhuhuhuhuhuhuhshahahahahahahahaah' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'a' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'ep' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 't' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'bz' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'uum' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'opp' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'fer' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+
+Ejercicio 4: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 5:
+
+	 Acierto: la cadena 'aeizzzzzzz' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'zzzzzaei' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'abecedario' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'a' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'aeiou' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'fekjfioejlajfioafilejil' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'oojijiijjjijlojoijoji' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'kpkpkpkpkpkpkpkpkpkpkpkp' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'jugaraeikjjkjkjkj' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'ae' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'jjjjjjjjjjjuuu' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'uuujjjjjjjjjjj' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'aaajjjjjjaaa' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'jajajajaaajajajaja' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'j' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'jk' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+
+Ejercicio 5: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 6:
+
+	 Acierto: la cadena 'loh' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'vci' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'vci' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'ilv' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'ghtrbjk' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'bmdfahbjhsidbkhfsdjkfyehdf' coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'al' no coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'aeiou' no coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'po' no coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'aioeiouaj' no coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+	 Acierto: la cadena 'KOIUE' no coincide con la ER '(?=[a-z]*[aiueo])(?=[a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*[bcdfghjklmnpqrstvwxyz][a-z]*)[a-z]*|[bcdfghjklmnpqrstvwxyz]*' como se esperaba
+
+Ejercicio 6: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
+Probando ejercicio 7:
+
+	 Acierto: la cadena '1546865483' coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '635246846858' coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '332468341388' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '121' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '37' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '1354845354168768' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '23541654887' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '2khgbhk21354' no coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '73155169' coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+	 Acierto: la cadena '3168548641' coincide con la ER '([13579](\d){2,}[13579]|[02468](\d){2,}[02468])' como se esperaba
+
+Ejercicio 7: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
+
