@@ -58,6 +58,22 @@ Probando ejercicio 3:
 	 Acierto: la cadena 'ababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
 	 Acierto: la cadena 'ababaaa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
 	 Acierto: la cadena 'ababaaababaaababaaababaaababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'bababbababababbababa' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'abababababababababababbabababbaba' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'abababanababbabababbaababaabababa' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ba' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'aba' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'bab' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaababaaababaaababaababaaababaaababaababaaababaaababaababaaababaaababa' no coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaaba' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaabab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababaa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababaaa' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababaaab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababaaaba' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
+	 Acierto: la cadena 'ababaaababaaababaaababaaababaaababaaabab' coincide con la ER '((a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a))|((a[ab]a[ab]aa)+(|a|(a[ab])|(a[ab]a)|(a[ab]a[ab])|(a[ab]a[ab]a)))' como se esperaba
 
 Ejercicio 3: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
 
@@ -75,6 +91,11 @@ Probando ejercicio 4:
 	 Acierto: la cadena 'uum' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
 	 Acierto: la cadena 'opp' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
 	 Acierto: la cadena 'fer' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'accion' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'arigo' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'chema' no coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'emmanuel' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
+	 Acierto: la cadena 'irais' coincide con la ER '^[aeiou]([a-z]{2}|[a-z]*[aeiou][a-z]{2})' como se esperaba
 
 Ejercicio 4: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
 
@@ -96,6 +117,8 @@ Probando ejercicio 5:
 	 Acierto: la cadena 'jajajajaaajajajaja' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
 	 Acierto: la cadena 'j' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
 	 Acierto: la cadena 'jk' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'ooauiwiwiaaaaaaiaiaiaiiaiaia' no coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
+	 Acierto: la cadena 'pololoo' coincide con la ER '^(?![a-z]*[aeiou]{3})[a-z]*$' como se esperaba
 
 Ejercicio 5: CORRECTO (La solución parece ser la respuesta correcta, ya que pasó todas las pruebas)
 
